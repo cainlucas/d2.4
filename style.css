@@ -12,7 +12,8 @@ body {
     border: none;
     font-family: "Arial";
     font-size: 22px;
-    margin-left: 130PX;
+    background-color: #08ab99;
+    /* margin-left: 130PX; */
   }
   
   h4 {
@@ -25,35 +26,38 @@ body {
     color: rgb(11, 53, 82);
     font-weight: 400;
     letter-spacing: 7px;
-    margin-left: 130px;
+    margin-top: 0;
+    margin-bottom: 0;
+    /* margin-left: 130px; */
   }
   
-  h2 {
+  .textoverde {
     font-family: "Montserrat", sans-serif;
     font-size: 25px;
     color: rgb(20, 150, 117);
     font-weight: 400;
     letter-spacing: 2px;
-    margin-left: 130PX;
+    /* margin-left: 130PX; */
     margin-top: 2%;
+    margin-bottom: 0%;
   }
   
   h1 {
     letter-spacing: -3px;
     font-family: "Montserrat", sans-serif;
     font-weight: bolder;
-    margin-left: 130PX;
+    margin-top: 0;
+    margin-bottom: 0;
   }
   
   #hime {
     color: #031414;
     font-weight: 399;
-    text-align: center;
     inline-size: auto;
   }
   
   #especialista {
-    color: rgba(155, 155, 155, 0.918);
+    color: rgba(0, 0, 0, 0.918);
     font-family: "Montserrat", sans-serif;
     font-size: 22px;
     font-weight: 400;
@@ -61,7 +65,7 @@ body {
   }
   
   #E1 {
-    margin-left: 130PX;
+    /* margin-left: 130PX; */
     color: dimgrey;
   }
   
@@ -86,7 +90,7 @@ body {
     border-radius: 30px;
   }
   .designer {
-  color: rgba(155, 155, 155, 0.918);  
+  color: rgba(17, 17, 17, 0.918);  
   }
   .label {
     margin-top: 30px;
@@ -191,6 +195,11 @@ body {
   .ft-container {
     margin: auto;
   }
+
+  .container{
+    margin-right: 20%;
+    margin-left: 20%;
+   }
   
   .social {
     margin: auto;
@@ -210,3 +219,95 @@ body {
     margin: 30px 20px;
     font-weight: bold;
   }
+
+  @media (max-width: 720px) {
+    body{
+      position: absolute;
+    }
+    .textoverde {
+      font-family: "Montserrat", sans-serif;
+      font-size: 20px;
+      color: rgb(20, 150, 117);
+      font-weight: 400;
+      letter-spacing: 2px;
+      /* margin-left: 130PX; */
+      margin-top: 2%;
+      width: 250px;
+    }
+    .enzo{
+    /* margin-bottom: 300%;  */
+    line-height: 60px;
+    font-size: 35px;
+    width: 250px;
+    }
+    .ux{
+      font-size: 20px;
+      letter-spacing: 3px;
+      width: 250px;
+    }
+    #E1{
+      font-size: 18px;
+      width: 280px;
+      margin-top: 20px;
+    }
+
+    .container{
+      margin-right: 0%;
+      margin-left: 0%;
+     }
+     .img{
+       width: 70%;
+       height: 70%;
+     }
+     .div-img{
+       text-align: center;
+       width: 250px;
+       margin-left: 38px;
+     }
+     button{
+       font-size: 15px;
+     }
+    #hime{
+      width: 250px;
+      font-size: 26px;
+    }
+    .Designer{
+     
+      font-size: 20px;
+      width: 250px;
+      margin-left: 26px;
+    }
+
+    #linhaum{
+     margin-left: 10px;
+     width: 200px;
+    }
+    
+    .container1{
+      font-size: 20px;
+      width: 250px;
+      margin-left: 26px;
+    }
+    .bg-cinza{
+      font-size: 20px;
+      width: 250px;
+      margin-left: 0;
+      padding: 0; 
+     }
+     .texto{
+       font-size: 28px;
+     }
+     .contato{
+       margin: 0;
+       margin-right: 20px;
+       width: 230px;
+     }
+     .bg-contato{
+       padding: 0;
+       width: 260px;
+     }
+     .footer{
+       padding: 0;
+       font-size: 20px;
+     }
+    }
